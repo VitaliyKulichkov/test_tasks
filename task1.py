@@ -1,5 +1,5 @@
 def main():
-    #Задаем размер и шаг
+    # Задаем размер и шаг
     n, m = map(int, input().split())
 
     i = 1
@@ -9,6 +9,7 @@ def main():
         if i == 1:
             break
     print()
+
 
 if __name__ == '__main__':
     main()
